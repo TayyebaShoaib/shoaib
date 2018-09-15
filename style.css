@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lustria');
+@import url('https://fonts.googleapis.com/css?family=Lustria|Ubuntu:500');
+body {
+    box-sizing: border-box;
+    background-color: #fcf8f1;
+    margin: 0;
+    padding: 0 50px;
+}
+body * {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #811818;
+}
+p {
+    font-size: 18px;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .7s;
+    transition-timing-function: ease-in;
+}
+.cool-link:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #811818;
+    transition-timing-function: ease-in;
+    transition: width .7s;
+}
+a:hover {
+    color: #811818;
+    text-decoration: none;
+}
+.current {
+    outline: dashed 1px #811818; 
+    background: #f8f9fa;
+}
+.text-center {
+    text-align: center;
+}
+.img-center {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.float-left {
+    float: left;
+    margin-right: 5px;
+}
+.float-right {
+    float: right;
+    margin-top: 10px;
+}
+nav {
+    padding: 15px 0;
+}
+nav a {
+    font-size: 24px;
+    font-family: georgia,"Times New Roman",times,serif; 
+    font-weight: bold;
+    /* font-style: italic;  */
+    color: #811818;
+}
+nav img {
+    height: 34px;
+}
+nav .brand-heading {
+    font-size: 1.5rem;
+}
+.section {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #dddddd;
+    padding: 20px 0;
+}
+.section h1 {
+    color: #811818;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3.51px;
+}
+h2 {
+    color: #811818;
+}
+.section .center, section ,left {
+    flex: 1;
+}
+.section .center {
+    padding: 40px 0;
+}
+.section img.first {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+    display: block;
+}
+ul.article-list {
+    padding: 5px 0;
+    font-size: 25px;
+}
+ul.article-list li:hover a {
+    font-size: 28px;
+    padding: 15px 0;
+    text-decoration: underline;
+}
+img.bullet {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#cycle embed {
+    margin-bottom: -23px;
+    margin-left: 10px;
+}
+.cycle {
+    float: left;
+    margin-right: 13px;
+    background: #F5F1EA;
+}
+div.certificate {
+    width: 650px;
+    margin: 20px auto;
+    border: 3px double #808080;
+    text-align: center;
+    padding: 20px;
+    outline: 2px solid #808080;
+}
+div.certificate table {
+    margin: 0 auto;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+h1.page-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+div.poetry img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.copyright {
+    text-align: center;
+    margin: 40px 0 16px;
+}
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 0; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #811818;
+    color: white; 
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #691010; 
+}
